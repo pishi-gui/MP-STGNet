@@ -59,8 +59,6 @@ python -B run_baseline.py --model pdformer --city Milan --seed 99 --device auto
 
 Other bundled choices are `gwn`, `astgcn`, `hsdgnn` and `testam`.
 Baseline outputs are saved under `runs/<City>/<model>/seed_<seed>/`.
-AdpSTGCN needs a separately obtained authorised dependency; see
-[THIRD_PARTY.md](THIRD_PARTY.md) for dependencies and permissions.
 
 All examples use seed `99` for one run. For repeated experiments, use the same
 set of seeds across models and cities, training separately for each seed.
