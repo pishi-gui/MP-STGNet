@@ -58,7 +58,6 @@ python -B run_baseline.py --model pdformer --city Milan --seed 99 --device auto
 
 还可选择`gwn`、`astgcn`、`hsdgnn`或`testam`。
 基线结果保存在`runs/<城市>/<模型>/seed_<种子>/`。
-AdpSTGCN需另行提供获得授权的依赖，依赖及许可说明见[THIRD_PARTY.md](THIRD_PARTY.md)。
 
 以上命令统一以种子`99`演示单次运行。多次实验应对各模型和城市使用同一组种子，
 逐次训练后汇总；更换城市只需修改`--city`。重复运行已有实验时，
