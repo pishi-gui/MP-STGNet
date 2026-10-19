@@ -1,0 +1,5 @@
+{
+  "extends": "default.json",
+  "name": "no_moran",
+  "model": {"use_moran": false, "layer_aware_moran": false, "moran_adj_calibration": false, "pyramid_use_moran_gate": false}
+}

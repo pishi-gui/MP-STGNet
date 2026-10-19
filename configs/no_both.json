@@ -1,0 +1,5 @@
+{
+  "extends": "no_moran.json",
+  "name": "no_both",
+  "model": {"pyramid_fusion": false, "pyramid_mode": "none"}
+}

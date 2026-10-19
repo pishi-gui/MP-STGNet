@@ -1,0 +1,5 @@
+{
+  "extends": "default.json",
+  "name": "no_pyramid",
+  "model": {"pyramid_fusion": false, "pyramid_mode": "none"}
+}
